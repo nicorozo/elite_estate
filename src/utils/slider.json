@@ -1,0 +1,38 @@
+[
+    {
+        "name": "The Whimsical Castle",
+        "price": "47,043",
+        "detail": "Jakarta Garden City Street, Cakung. Pulo Gadung, Jakarta Timur, DKI Jakarta",
+        "image": "./house1.png"
+    },
+    {
+        "name": "The Enchanted Cottage",
+        "price": "66,353",
+        "detail": "Pahlawan Street XVII No.215, Cinangka, Sawangan, Depok, Jawa Barat",
+        "image": "./house2.png"
+    },
+    {
+        "name": "The Funky Fortress",
+        "price": "35,853",
+        "detail": "Ruko Puri Indah Residence Block A7, Lingkar Street, Ciracas, Serang, Banten",
+        "image": "./house3.png"
+    },
+    {
+        "name": "The Psychedelic Palace",
+        "price": "47,043",
+        "detail": "Jakarta Garden City Street, Cakung. Pulo Gadung, Jakarta Timur, DKI Jakarta",
+        "image": "./house4.png"
+    },
+    {
+        "name": "The Quirky Manor",
+        "price": "66,353",
+        "detail": "Pahlawan Street XVII No.215, Cinangka, Sawangan, Depok, Jawa Barat",
+        "image": "./house5.png"
+    },
+    {
+        "name": "The Humble",
+        "price": "35,853",
+        "detail": "Ruko Puri Indah Residence Block A7, Lingkar Street, Ciracas, Serang, Banten",
+        "image": "./house6.png"
+    }
+]

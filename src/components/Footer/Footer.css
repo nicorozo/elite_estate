@@ -1,0 +1,19 @@
+.footer-wrapper .footer-container {
+    justify-content: space-between;
+}
+
+.footer-left>.signature-container {
+    font-size: 1.5rem;
+}
+
+.signature {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.github-logo {
+    padding: 5px;
+}
+
+.complementary-text {
+    color: rgb(109, 109, 109);
+}

@@ -1,0 +1,10 @@
+.shapes-wrapper {
+    box-shadow: inset 0px 0.5rem 1rem black;
+    background: var(--gray);
+}
+
+section .shapes-container {
+    justify-content: space-around;
+    gap: 2rem;
+    padding: 3rem 0;
+}

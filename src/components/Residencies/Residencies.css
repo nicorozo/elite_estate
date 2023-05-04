@@ -1,0 +1,108 @@
+.res-wrapper {
+    /*     background-color: rgb(23, 23, 23);
+ */
+    /*     background: radial-gradient(rgba(45, 49, 51, 0.8), rgba(0, 0, 0, 1));
+ */
+    background-size: cover;
+    margin-bottom: 2rem;
+    padding-bottom: 5rem;
+}
+
+.res-container {
+    overflow: hidden;
+    position: relative;
+}
+
+.res-head {
+    margin-bottom: 2rem;
+}
+
+.small-head-span {
+    color: var(--orange);
+    font-size: 1rem;
+}
+
+.big-head-span {
+    color: var(--secondary);
+    font-size: 2rem;
+    font-weight: 900;
+}
+
+div .res-card {
+    gap: 0.6rem;
+    padding: 1rem;
+    background-color: var(--gray);
+    border-radius: 10px;
+    margin: auto;
+    max-width: 14rem;
+    min-height: 30rem;
+    justify-content: start;
+    transition: all 300ms ease-in;
+}
+
+.res-card:hover {
+    transform: scale(1.025);
+    background: var(--card-gradient);
+    box-shadow: 0rem 1rem 2rem rgb(73, 152, 152);
+}
+
+.res-card>img {
+    width: 100%;
+    max-width: 15rem;
+    border-radius: 10px;
+}
+
+.res-card .res-price {
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+
+.card-name {
+    color: var(--orange);
+    min-height: 8rem;
+}
+
+.card-detail {
+    color: gray;
+    overflow: scroll;
+    min-height: 3rem;
+}
+
+.swiper-horizontal {
+    overflow: visible;
+}
+
+div .res-button {
+    position: absolute;
+    top: -4rem;
+    right: 2rem;
+    z-index: 123;
+}
+
+@media (max-width:800px) {
+    .res-wrapper {
+        margin-bottom: 0;
+        padding-bottom: 0;
+    }
+
+    div .res-button {
+        display: none;
+    }
+}
+
+.res-button>button {
+    padding: .6rem 1rem;
+    background: var(--yellow);
+    border-radius: 5px;
+    border: 2px solid var(--gray);
+    font-size: 1.2rem;
+    color: var(--black);
+}
+
+.res-button>button:hover {
+    cursor: pointer;
+}
+
+.res-button>button:active {
+    background-color: var(--orange);
+}

@@ -1,0 +1,19 @@
+.get-wrapper {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.get-container {
+    background: var(--green-gradient);
+    padding: 5rem 2rem;
+    border: 2px var(--green-gradient) solid;
+    border-radius: 6px;
+    gap: 2rem;
+    text-align: center;
+}
+
+.get-container>:nth-child(1) {
+    font-size: 2rem;
+    font-weight: bold;
+    color: var(--white);
+}

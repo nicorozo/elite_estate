@@ -1,0 +1,108 @@
+.hero-wrapper {
+    padding-bottom: 2rem;
+    position: relative;
+    background: var(--gray);
+    background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.9), rgba(111, 77, 18, 0.3)), url(https://cdn.discordapp.com/attachments/992890843851661442/1089951407152574604/MattJack_gold_symmetrical_lines_pattern_black_background_sharp__514526a2-9e65-4f26-8272-156d42d4ce7c.png);
+    background-repeat: repeat;
+}
+
+.hero-wrapper .hero-container {
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+/* left section */
+.hero-left {
+    gap: 3rem;
+}
+
+.hero-title {
+    text-shadow: 0px 1px 10px rgb(251, 251, 123);
+    position: relative;
+    z-index: 1;
+}
+
+.hero-circle {
+    position: absolute;
+    background: var(--green-gradient);
+    width: 5rem;
+    height: 5rem;
+    box-shadow: inset -7px 6px 30px rgb(158, 63, 93);
+    border-radius: 100px;
+    z-index: -1;
+    left: 12rem;
+    top: -30px;
+}
+
+.hero-title>h2 {
+    font-size: 4rem;
+    font-weight: bold;
+    line-height: 5rem;
+}
+
+.hero-description {
+    font-style: italic;
+}
+
+.hero-action-section>button {
+    padding: 0.6rem 3.5rem;
+}
+
+.hero-left .stats {
+    width: 100%;
+    justify-content: space-between;
+}
+
+.stat>:nth-child(1) {
+    font-size: 2rem;
+}
+
+.stat>:nth-child(1)>:last-child {
+    color: var(--orange);
+    margin-left: 0.1rem;
+}
+
+.stat>:nth-child(2) {
+    color: gray;
+}
+
+/* right section */
+.image-container {
+    width: 30rem;
+    height: 35rem;
+    overflow: hidden;
+    border-radius: 10rem 4px 10rem 4px;
+    border: 0px solid black;
+    box-shadow: 5px 2.5px 7px rgb(80, 80, 80);
+}
+
+.image-container>img {
+    width: 150%;
+    object-position: 0 -60px;
+
+
+}
+
+@media (max-width: 800px) {
+    .hero-circle {
+        left: auto;
+        right: 1rem;
+        top: 0.9rem;
+    }
+
+    .hero-right {
+        width: 100vw;
+    }
+
+    .image-container {
+        width: 100%;
+        height: 100%;
+    }
+
+    .image-container>img {
+        height: 100%;
+        width: inherit;
+        object-position: 0 0px;
+
+    }
+}
