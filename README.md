@@ -1,5 +1,5 @@
 # elite_estate
-React Exercise </br>
+React Exercise <br/>
 <a href="https://nicorozo.github.io/elite_estate/">Website</a> 
 
 <ul>
